@@ -16,13 +16,15 @@ body {
  
 .cabecera {
     padding: 25px;
-    border: 3px solid #333333;
+    border: 6px solid #333333;
+    background-color: chocolate;
 }
  
 .menu {
     padding: 15px;
     border: 3px solid #777777;
     margin-top: 10px;
+    background-color: brown;
 }
  
 .contenido {
@@ -42,4 +44,14 @@ body {
     border: 3px solid #555555;
     margin-top: 10px;
     text-align: center;
+    background-color: crimson;
+}
+
+.menu a {
+    color: darkorchid;
+    text-decoration: underline darkorchid;
+}
+
+.menu a :hover {
+    color: aqua;
 }
