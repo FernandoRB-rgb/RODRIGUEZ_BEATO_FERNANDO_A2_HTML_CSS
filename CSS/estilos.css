@@ -36,7 +36,7 @@ body {
 .caja {
     padding: 30px;
     border: 2px solid #bbbbbb;
-    margin: 0px;
+    margin: 30px 0;
 }
  
 .pie {
@@ -48,10 +48,23 @@ body {
 }
 
 .menu a {
-    color: darkorchid;
-    text-decoration: underline darkorchid;
+    color: rgb(30, 214, 76);
+    text-decoration: underline rgb(255, 255, 254);
 }
 
-.menu a :hover {
+.menu a:hover {
     color: aqua;
+}
+
+.especial {
+    background-color: #f5f5f5;
+    border-width: 4px;
+}
+
+
+.nueva {
+    border: 7px solid #d6780c;
+    background-color: coral;
+    color: yellow;
+
 }
